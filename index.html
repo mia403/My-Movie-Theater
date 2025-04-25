@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Experience the magic of a moviw at Mia's theater. Grab a drinkand delicious snacks and let's chill out together.">
+    <meta name="keywords" content="Movie, Rest, theater"> 
+    <meta name="author" content="Mia">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mia's theater</title>
+</head>
+<body>
+    <!-- this is the header section -->
+    <header>
+        <h1>Mia's Theater 🍿 </h1>
+    </header>
+    
+    <!-- this is the morquee section. -->
+    <section>
+    <div class="morquee">
+        <span>Take a moment to relax.</span>
+     </div>
+    </section> 
+
+    <!-- this is the video section. -->
+    <section>
+        <div class="video-container">
+            <video controls id="myVideo">
+                <source src="Media/4_5976748821210734775.mp4" type="video/mp4">
+                "Your video doesn't support the video tag."
+            </video>
+        </div>
+         </section>
+
+    <!-- this is the button section -->
+    <section>
+        <div id="button-container">
+            <button onclick="document.getElementById('myVideo').currentTime = 0; document.getElementById('myVideo').play();">Replay</button>
+            <button onclick="alert('Thanks for rating!')">Rate Movie</button>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
